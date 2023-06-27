@@ -1,14 +1,14 @@
 # Prompt Tuning on Graph-augmented Low-resource Text Classification
-We provide the implementation of G2P2 and G2P2^{*} model, which is the source code for the TNNLS submission
+We provide the implementation of G2P2 and G2P2* model, which is the source code for the TNNLS submission
 "Prompt Tuning on Graph-augmented Low-resource Text Classification". 
 
 The repository is organised as follows:
 - dataset/: the directory of data sets. Currently, it only has the dataset of Cora, if you want the three processed Amazon datasets, you can download and put them under this directory, the link is https://drive.google.com/drive/folders/1IzuYNIYDxr63GteBKeva-8KnAIhvqjMZ?usp=sharing.
 - res/: the directory of saved models.
-- meta_net/: the directoty of our G2P2^{*} model
-- 	task_cora.py, task_amazon.py: data preprocessing for cora dataset and Amazon datasets
-- 	model_cocoop: model of G2P2^{*}
-- 	main_cog2p2_cora.py, main_cog2p2_amazon.py: tuning and testing entrance for cora, tuning and testing entrance for Amazon datasets
+- meta_net/: the directoty of our G2P2* model
+    - task_cora.py, task_amazon.py: data preprocessing for cora dataset and Amazon datasets
+    - 	model_cocoop: model of G2P2*
+    - 	main_cog2p2_cora.py, main_cog2p2_amazon.py: tuning and testing entrance for cora, tuning and testing entrance for Amazon datasets
 - bpe_simple_vocab_16e6.txt.gz: vocabulary for simple tokenization.
 - data.py, data_graph.py: for data loading utilization.
 - main_test.py, main_test_amazon.py: testing entrance for cora, testing entrance for Amazon datasets.
@@ -38,7 +38,7 @@ If on Amazon datasets, it should be:
 
     python main_test_amazon.py
     
-(2) For G2P2^{*},
+(2) For G2P2*,
 
     cd meta_net
 
