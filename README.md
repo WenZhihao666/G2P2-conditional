@@ -1,5 +1,6 @@
 # Prompt Tuning on Graph-augmented Low-resource Text Classification
 We provide the implementation of G2P2 and G2P2* model, which is the source code for the TKDE journal
+
 "Prompt Tuning on Graph-augmented Low-resource Text Classification", and the link is https://ieeexplore.ieee.org/abstract/document/10633805. 
 
 The repository is organised as follows:
