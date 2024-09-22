@@ -1,6 +1,6 @@
 # Prompt Tuning on Graph-augmented Low-resource Text Classification
-We provide the implementation of G2P2 and G2P2* model, which is the source code for the TNNLS submission
-"Prompt Tuning on Graph-augmented Low-resource Text Classification". 
+We provide the implementation of G2P2 and G2P2* model, which is the source code for the TKDE journal
+"Prompt Tuning on Graph-augmented Low-resource Text Classification", and the link is https://ieeexplore.ieee.org/abstract/document/10633805. 
 
 The repository is organised as follows:
 - dataset/: the directory of data sets. Currently, it only has the dataset of Cora, if you want the three processed Amazon datasets, you can download and put them under this directory, the link is https://drive.google.com/drive/folders/1IzuYNIYDxr63GteBKeva-8KnAIhvqjMZ?usp=sharing.
